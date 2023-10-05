@@ -5,7 +5,7 @@ class Footer extends HTMLElement{
         <footer class="footer p-5" style="display: none;">
         <div class="content has-text-centered">
           <p>
-            <strong><a href="#">AnimXer</a></strong> Stream for free without ads! By: t<a
+            <strong><a href="#">AnimXer</a></strong> Stream for free without ads! By: <a
               target="_blank" href="https://www.facebook.com/profile.php?id=100069572806122">ANIMXER</a>. SUPPORT MY FACEBOOK PAGE
           </p>
         </div>
