@@ -13,7 +13,7 @@ class Navbar extends HTMLElement {
   <div class="navbar-brand" style="margin-right: 10px;">
     <a class="navbar-item " href="../index.html">
       <p class="title has-text-white">
-        Anime Stream
+        ANIMXER
       </p>
     </a>
 
