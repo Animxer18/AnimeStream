@@ -54,7 +54,7 @@ const getEp = async () => {
   let episodeName = ep_id.id;
   console.log(episodeName);
   let serverData = await axios.get(
-    `https://consumet-api-drab.vercel.app/meta/anilist/servers/${episodeName}`
+    `https://animxer-api-cvxg.vercel.app/meta/anilist/servers/${episodeName}`
   );
   let streamServerData = serverData.data;
   Vidstreaming.addEventListener("click", () => {
@@ -115,7 +115,7 @@ const getEp = async () => {
     });
   });
   const { data } = await axios.get(
-    `https://consumet-api-drab.vercel.app/meta/anilist/watch/${episodeName}`
+    `https://animxer-api-cvxg.vercel.app/meta/anilist/watch/${episodeName}`
   );
   console.log(data);
   for (const iterator of data.sources) {
