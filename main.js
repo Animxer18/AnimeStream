@@ -6,7 +6,7 @@ const scrollBtn = document.getElementById("scrollToTop");
 scrollBtn.style.display = "none";
 const card_layout = document.getElementById("card_wrapper");
 //api
-const url = "https://animxer-api-cvxg.vercel.app/meta/anilist/trending";
+const url = "https://animxer-api-cvxg.vercel.app/meta/anilist/recent";
 let page = 1;
 //navbar
 const nav = document.getElementById("nav");
