@@ -2,7 +2,7 @@
 
 const next = document.getElementById("next");
 const prev = document.getElementById("prev");
-const url = "https://animxer-api-cvxg.vercel.app/meta/anilist/recent-episode";
+const url = "https://animxer-api-cvxg.vercel.app/meta/anilist/recentepisode";
 let page = 1;
 
 const loader_container = document.querySelector(".loader-container");
